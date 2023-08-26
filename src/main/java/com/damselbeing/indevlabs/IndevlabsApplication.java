@@ -8,10 +8,6 @@ public class IndevlabsApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(IndevlabsApplication.class, args);
-
-		Task task = new Task();
-		int[] array = {3, 5, 6};
-		task.findMissingNumber(array);
 	}
 
 }
