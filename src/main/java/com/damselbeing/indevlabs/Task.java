@@ -1,7 +1,7 @@
 package com.damselbeing.indevlabs;
 
 import org.springframework.stereotype.Component;
-
+//need some comments
 @Component
 public class Task {
 
@@ -14,7 +14,8 @@ public class Task {
         }
 
         int min = Integer.MAX_VALUE;
-        int sum_b = 0;
+        //use more descriptive variable names (sumWithMissingNumber instead of sum_b)
+        int sum_b = 0; //camelCase instead of snake_case
 
         for(int i : array) {
             min = Math.min(i, min);
